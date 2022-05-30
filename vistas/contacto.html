@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script
+      src="https://kit.fontawesome.com/44e6cd46d1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--COMIENZA HEADER-->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a href="../index.html">
+            <img class="logo__header" src="../img/logo.png" alt="Logo e-Trax" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarEtrax"
+            aria-controls="navbarEtrax"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarEtrax"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link" href="../index.html">Inicio</a>
+              <a class="nav-link" href="../vistas/about-us.html"
+                >Sobre Nosotros</a
+              >
+              <a class="nav-link" href="../vistas/gallery.html">Servicios</a>
+              <a class="nav-link" href="../vistas/projects.html">Portfolio</a>
+              <a class="nav-link active" href="../vistas/contacto.html"
+                >Contacto</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Comienza Main-->
+    <main>
+      <div class="div__contact">
+        <h1 class="h1__title">CONTACTO</h1>
+      </div>
+      <div class="container_contact">
+        <h2 class="container_contact_title">PONTE EN CONTACTO</h2>
+      </div>
+      <div class="div__form">
+        <div class="container">
+          <form action="#">
+            <label>Nombre</label>
+            <input
+              class="inputs_contact"
+              type="text"
+              placeholder="Tu nombre..."
+            />
+
+            <label>Número de teléfono</label>
+            <input
+              class="inputs_contact"
+              type="number"
+              placeholder="Tu número..."
+            />
+
+            <label>Email</label>
+            <input
+              class="inputs_contact"
+              type="email"
+              placeholder="Tu email..."
+            />
+
+            <label for="subject">Subject</label>
+            <textarea
+              class="text_area_contact"
+              placeholder="Deja tu mensaje..."
+            ></textarea>
+
+            <input class="button_contact" type="submit" value="ENVIAR" />
+          </form>
+        </div>
+      </div>
+
+      <div class="div__contact-map">
+        <h3 class="h3__map">MAPA</h3>
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.0685384003154!2d-56.13911678500449!3d-34.904729480382606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f815d975ef1a1%3A0xe8611491be7cc6a0!2sWorld%20Trade%20Center%20Montevideo%2C%2011300%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1652909950376!5m2!1ses-419!2suy"
+            width="1150"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </main>
+    <!--COMIENZA FOOTER-->
+    <footer>
+      <div class="container">
+        <nav class="row">
+          <a href="../index.html" class="col-6 d-flex align-items-center">
+            <img src="../img/logo.png" alt="" class="logo__header" />
+          </a>
+          <ul class="col-6 list-unstyled">
+            <li class="font-weight-bold text-uppercase text-center">
+              Información
+            </li>
+            <div class="footer__text">
+              <!--Horario-->
+              <p>
+                <i class="fa-solid fa-clock"></i> Lunes a Viernes: 10:00hs -
+                18:00hs
+              </p>
+              <!--Telefono-->
+              <p><i class="fa-solid fa-phone"></i> 123456789</p>
+              <!--Dirección-->
+              <p>
+                <i class="fa-solid fa-location-dot"></i> Av. de las Américas
+                6000
+              </p>
+            </div>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__rights">
+        <p>Todos los derechos reservados</p>
+      </div>
+    </footer>
+  </body>
+</html>
