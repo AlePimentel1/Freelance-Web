@@ -3,6 +3,16 @@
   margin: 0%;
   box-sizing: border-box;
 }
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 body {
   font-family: sans-serif;
   margin: 0;
@@ -25,6 +35,9 @@ footer {
   flex-direction: column;
   color: white;
 }
+label {
+  color: white;
+}
 header {
   padding: 20px;
   background-color: #313f5e;
@@ -40,8 +53,17 @@ header {
 .nav-link:hover {
   color: #24cdd5;
 }
-
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*-------CSS POR CLASES-------*/
+.home_column {
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
 .footer__rights {
   display: flex;
   justify-content: center;
@@ -72,7 +94,7 @@ header {
 .div__home {
   display: flex;
   min-height: 350px;
-  background-image: url(../img/imagen-grande.jpg);
+  background-image: url(./img/imagen-grande.jpg);
   background-position: center;
   background-size: cover;
   justify-content: center;
@@ -101,7 +123,6 @@ header {
 }
 .services__cards {
   width: 330px;
-  border-radius: 8px;
   margin: 20px;
   text-align: center;
 }
@@ -110,7 +131,7 @@ header {
   display: flex;
   min-height: 350px;
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
-    url(../img/img-about-us.jpg) no-repeat center center fixed;
+    url(./img/img-about-us.jpg) no-repeat center center fixed;
   background-position: center;
   background-size: cover;
   justify-content: center;
@@ -124,7 +145,7 @@ header {
   display: flex;
   min-height: 350px;
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
-    url(../img/contact-img.jpg) no-repeat center center fixed;
+    url(./img/contact-img.jpg) no-repeat center center fixed;
   background-position: center;
   background-size: cover;
   justify-content: center;
@@ -134,7 +155,7 @@ header {
   display: flex;
   min-height: 350px;
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
-    url(../img/portfolio-img.jpg) no-repeat center center fixed;
+    url(./img/portfolio-img.jpg) no-repeat center center fixed;
   background-position: center;
   background-size: cover;
   justify-content: center;
@@ -144,7 +165,7 @@ header {
   display: flex;
   min-height: 350px;
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
-    url(../img/img-services.jpg) no-repeat center center fixed;
+    url(./img/img-services.jpg) no-repeat center center fixed;
   background-position: center;
   background-size: cover;
   justify-content: center;
@@ -161,10 +182,6 @@ header {
   margin: 4px 2px;
   cursor: pointer;
   background-color: #24cdd5;
-}
-.div__button {
-  justify-content: center;
-  align-items: center;
 }
 .div__info {
   display: flex;
@@ -184,6 +201,18 @@ header {
 .img_services {
   height: 50px;
   width: auto;
+}
+.img_home_innovation {
+  min-height: 350px;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url(./img/proyecto1.png) no-repeat center center fixed;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.h4__innovation {
+  color: white;
 }
 /*---CONTACT--*/
 .container_contact {
@@ -211,16 +240,7 @@ header {
   margin-bottom: 16px;
   resize: vertical;
 }
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
+
 .button_contact {
   background-color: #24cdd5;
   color: white;
@@ -229,9 +249,7 @@ textarea {
   border-radius: 4px;
   cursor: pointer;
 }
-label {
-  color: white;
-}
+
 .div__contact-map {
   display: flex;
   flex-direction: column;
