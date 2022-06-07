@@ -1,0 +1,28 @@
+/*---INICIO ESTILOS HEADER---*/
+header {
+  padding: 20px;
+  background-color: #313f5e;
+}
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+  &:hover {
+    color: #24cdd5;
+  }
+}
+.logo__header {
+  height: 40px;
+}
+.ul__nav {
+  display: inline-flex;
+  list-style: none;
+}
+.ul__nav :hover {
+  color: #24cdd5;
+}
+.nav__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*---FIN ESTILOS HEADER---*/
