@@ -43,26 +43,8 @@ label {
   height: 150px;
   width: auto;
 }
-.div__home {
-  display: flex;
-  min-height: 350px;
-  background-image: url(../img/imagen-grande.jpg);
-  background-position: center;
-  background-size: cover;
-  justify-content: center;
-  align-items: center;
-}
 .h1__title {
   color: white;
-}
-.section__h2 {
-  padding: 20px;
-}
-.div__footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
 }
 .carts {
   width: 100%;
@@ -79,49 +61,9 @@ label {
   text-align: center;
 }
 
-.div__about-us {
-  display: flex;
-  min-height: 350px;
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
-    url(../img/img-about-us.jpg) no-repeat center center fixed;
-  background-position: center;
-  background-size: cover;
-  justify-content: center;
-  align-items: center;
-}
 .div__contact-map {
   padding: 25px;
   min-height: 300px;
-}
-.div__contact {
-  display: flex;
-  min-height: 350px;
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
-    url(../img/contact-img.jpg) no-repeat center center fixed;
-  background-position: center;
-  background-size: cover;
-  justify-content: center;
-  align-items: center;
-}
-.div__portfolio {
-  display: flex;
-  min-height: 350px;
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
-    url(../img/portfolio-img.jpg) no-repeat center center fixed;
-  background-position: center;
-  background-size: cover;
-  justify-content: center;
-  align-items: center;
-}
-.div__services {
-  display: flex;
-  min-height: 350px;
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
-    url(../img/img-services.jpg) no-repeat center center fixed;
-  background-position: center;
-  background-size: cover;
-  justify-content: center;
-  align-items: center;
 }
 .button__sky-blue {
   border: none;

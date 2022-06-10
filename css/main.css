@@ -1,4 +1,4 @@
-/*---INICIO ESTILOS GENERALES---*/
+/*---INICIO ESTILOS PAGINA EN GENERAL---*/
 * {
   padding: 0%;
   margin: 0%;
@@ -8,7 +8,65 @@ body {
   font-family: sans-serif;
   margin: 0; }
 
-/*---FIN ESTILOS GENERALES---*/
+/*---FIN ESTILOS PAGINA EN GENERAL---*/
+/*---INICIO ESTILOS PORTADA---*/
+.imgPortadaAbout {
+  display: flex;
+  min-height: 350px;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/portadaAbout.jpg) no-repeat center center fixed;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px; }
+
+.imgPortadaServices {
+  display: flex;
+  min-height: 350px;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/portadaServices.jpg) no-repeat center center fixed;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px; }
+
+.imgPortadaPortfolio {
+  display: flex;
+  min-height: 350px;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/portadaPortfolio.jpg) no-repeat center center fixed;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px; }
+
+.imgPortadaContact {
+  display: flex;
+  min-height: 350px;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/portadaContact.jpg) no-repeat center center fixed;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px; }
+
+.imgPortadaDelHome {
+  display: flex;
+  min-height: 350px;
+  background-image: url(../img/portadaDelHome.jpg);
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px; }
+
+/*---FIN ESTILOS PORTADA---*/
+.imagenDePerfil {
+  height: 220px;
+  width: auto;
+  background-position: center;
+  margin-bottom: 20px; }
+
 /*---INICIO ESTILOS HEADER---*/
 header {
   padding: 20px;
@@ -53,8 +111,13 @@ footer {
   padding-left: 150px;
   padding-top: 25px; }
 
+.container-footer {
+  border-radius: 5px;
+  background-color: #313f5e;
+  padding: 20px; }
+
 /*---FIN ESTILOS FOOTER---*/
-/*---CONTACT--*/
+/*---INICIO ESTILOS CONTACTO--*/
 .container_contact {
   display: flex;
   justify-content: center;
@@ -65,7 +128,7 @@ footer {
   display: flex;
   justify-content: center; }
 
-.container {
+.container-contact {
   border-radius: 5px;
   background-color: #313f5e;
   padding: 20px; }
@@ -97,6 +160,7 @@ footer {
 .h3__map {
   padding: 25px; }
 
+/*---FIN ESTILOS CONTACTO--*/
 /*---INICIO MEDIAS---*/
 @media (max-width: 1024px) {
   .carts_services {
