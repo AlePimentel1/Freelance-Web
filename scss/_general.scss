@@ -9,7 +9,24 @@ body {
   font-family: sans-serif;
   margin: 0;
 }
+
+$colores: (
+  principal: #24cdd5,
+  secundario: #313f5e,
+);
+
 /*---FIN ESTILOS PAGINA EN GENERAL---*/
+
+/*-------CLASES BOOTSTRAP-------*/
+.active {
+  color: map-get($colores, principal) !important;
+}
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*---INICIO ESTILOS PORTADA---*/
 @each $pagina in About, Services, Portfolio, Contact {
   .imgPortada#{$pagina} {

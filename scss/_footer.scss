@@ -1,4 +1,8 @@
 /*---INICIO ESTILOS FOOTER---*/
+@mixin sizes($padding-left, $padding-top) {
+  padding-left: $padding-left;
+  padding-top: $padding-top;
+}
 footer {
   background: #313f5e;
   padding: 20px;
@@ -12,12 +16,11 @@ footer {
   justify-content: center;
 }
 .footer__text {
-  padding-left: 150px;
-  padding-top: 25px;
+  @include sizes(150px, 25px);
 }
 .container-footer {
   border-radius: 5px;
-  background-color: #313f5e;
+  background-color: map-get($colores, secundario);
   padding: 20px;
 }
 /*---FIN ESTILOS FOOTER---*/
