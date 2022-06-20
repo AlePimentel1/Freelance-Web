@@ -8,6 +8,27 @@ body {
   font-family: sans-serif;
   margin: 0; }
 
+h2,
+h3 {
+  color: #24cdd5; }
+
+div img {
+  height: 200px;
+  width: auto; }
+
+label {
+  color: white; }
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
 /*---FIN ESTILOS PAGINA EN GENERAL---*/
 /*-------CLASES BOOTSTRAP-------*/
 .active {
@@ -76,6 +97,67 @@ body {
   background-position: center;
   margin-bottom: 20px; }
 
+.div__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px; }
+
+.carts_services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px; }
+
+.img_services {
+  height: 50px;
+  width: auto; }
+
+.h1__title {
+  color: white; }
+
+.services__cards {
+  width: 330px;
+  margin: 20px;
+  text-align: center; }
+
+/*---INICIO ESTILOS HOME---*/
+.img_home_innovation {
+  min-height: 350px;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/proyecto1.png) no-repeat center center fixed;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
+.h4__innovation {
+  color: white; }
+
+.button__sky-blue {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #24cdd5; }
+
+.home_column {
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
+.img_home_services {
+  height: 150px;
+  width: auto; }
+
+/*---FIN ESTILOS HOME---*/
 /*---INICIO ESTILOS HEADER---*/
 header {
   padding: 20px;
@@ -168,6 +250,10 @@ footer {
 
 .h3__map {
   padding: 25px; }
+
+.div__contact-map {
+  padding: 25px;
+  min-height: 300px; }
 
 /*---FIN ESTILOS CONTACTO--*/
 /*---INICIO MEDIAS---*/
