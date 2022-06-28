@@ -37,6 +37,7 @@ textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
+
 /*---FIN ESTILOS PAGINA EN GENERAL---*/
 
 /*-------CLASES BOOTSTRAP-------*/
@@ -48,7 +49,6 @@ textarea {
   justify-content: center;
   align-items: center;
 }
-
 /*---INICIO ESTILOS PORTADA---*/
 @each $pagina in About, Services, Portfolio, Contact {
   .imgPortada#{$pagina} {
