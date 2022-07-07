@@ -29,6 +29,16 @@ textarea {
   margin-bottom: 16px;
   resize: vertical; }
 
+.h4_gallery {
+  padding-top: 10px;
+  color: #313f5e; }
+
+.p_home {
+  margin-bottom: 3rem; }
+
+.section__h2 {
+  width: 1000px; }
+
 /*---FIN ESTILOS PAGINA EN GENERAL---*/
 /*-------CLASES BOOTSTRAP-------*/
 .active {
@@ -107,13 +117,13 @@ textarea {
 .carts_services {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 200px);
+  grid-template-rows: repeat(2, 250px);
   justify-content: center;
   align-items: center;
-  padding-bottom: 25px; }
+  padding-bottom: 50px; }
 
 .img_services {
-  height: 50px;
+  height: 80px;
   width: auto; }
 
 .h1__title {
@@ -193,6 +203,13 @@ footer {
   justify-content: center;
   flex-direction: column;
   color: white; }
+
+.center__footer {
+  justify-content: center;
+  align-items: center; }
+
+.logo__footer {
+  height: 60px; }
 
 .footer__rights {
   display: flex;
@@ -280,13 +297,18 @@ footer {
     padding: 10px; } }
 
 @media (max-width: 760px) {
+  .column_services_home {
+    justify-content: center;
+    align-items: center; }
+  .section__h2 {
+    width: 500px; }
   iframe {
     width: 420px; }
   .carts_services {
     width: auto;
     display: grid;
     grid-template-columns: repeat(1, auto);
-    grid-template-rows: repeat(6, 200px);
+    grid-template-rows: repeat(6, 1fr);
     padding-bottom: 25px; }
   nav {
     display: flex;
@@ -300,6 +322,9 @@ footer {
 @media (max-width: 480px) {
   .a__navigation {
     font-size: x-small; } }
+
+.section__h2 {
+  width: auto; }
 
 /*---FIN MEDIAS---*/
 /*---ANIMACIONES---*/

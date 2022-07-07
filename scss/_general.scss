@@ -37,10 +37,20 @@ textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
-
+.h4_gallery {
+  padding-top: 10px;
+  color: #313f5e;
+}
+.p_home {
+  margin-bottom: 3rem;
+}
+.section__h2 {
+  width: 1000px;
+}
 /*---FIN ESTILOS PAGINA EN GENERAL---*/
 
 /*-------CLASES BOOTSTRAP-------*/
+
 .active {
   color: map-get($colores, principal) !important;
 }
@@ -90,13 +100,13 @@ textarea {
 .carts_services {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 200px);
+  grid-template-rows: repeat(2, 250px);
   justify-content: center;
   align-items: center;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
 }
 .img_services {
-  height: 50px;
+  height: 80px;
   width: auto;
 }
 .h1__title {

@@ -11,6 +11,13 @@ footer {
   flex-direction: column;
   color: white;
 }
+.center__footer {
+  justify-content: center;
+  align-items: center;
+}
+.logo__footer {
+  height: 60px;
+}
 .footer__rights {
   display: flex;
   justify-content: center;

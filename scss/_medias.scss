@@ -29,6 +29,13 @@
 }
 
 @media (max-width: 760px) {
+  .column_services_home {
+    justify-content: center;
+    align-items: center;
+  }
+  .section__h2 {
+    width: 500px;
+  }
   iframe {
     width: 420px;
   }
@@ -36,7 +43,7 @@
     width: auto;
     display: grid;
     grid-template-columns: repeat(1, auto);
-    grid-template-rows: repeat(6, 200px);
+    grid-template-rows: repeat(6, 1fr);
     padding-bottom: 25px;
   }
   nav {
@@ -56,4 +63,8 @@
     font-size: x-small;
   }
 }
+.section__h2 {
+  width: auto;
+}
+
 /*---FIN MEDIAS---*/
