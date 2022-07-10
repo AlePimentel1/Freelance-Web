@@ -9,6 +9,15 @@
     align-items: center;
     padding-bottom: 25px;
   }
+  .carts_services_home {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(3, 200px);
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+  }
   nav {
     display: flex;
     flex-direction: column;
@@ -29,6 +38,10 @@
 }
 
 @media (max-width: 760px) {
+  .about_container {
+    justify-content: center;
+    align-items: center;
+  }
   .column_services_home {
     justify-content: center;
     align-items: center;
@@ -44,6 +57,13 @@
     display: grid;
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(6, 1fr);
+    padding-bottom: 25px;
+  }
+  .carts_services_home {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(3, 1fr);
     padding-bottom: 25px;
   }
   nav {

@@ -41,12 +41,7 @@ textarea {
   padding-top: 10px;
   color: #313f5e;
 }
-.p_home {
-  margin-bottom: 3rem;
-}
-.section__h2 {
-  width: 1000px;
-}
+
 /*---FIN ESTILOS PAGINA EN GENERAL---*/
 
 /*-------CLASES BOOTSTRAP-------*/
@@ -97,6 +92,14 @@ textarea {
   align-items: center;
   padding: 25px;
 }
+.carts_services_home {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 250px);
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
 .carts_services {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -117,7 +120,15 @@ textarea {
   margin: 20px;
   text-align: center;
 }
+.services__cards_home {
+  width: 250;
+  margin: 20px;
+  text-align: center;
+}
 /*---INICIO ESTILOS HOME---*/
+.navbar-toggler {
+  color: white !important;
+}
 .img_home_innovation {
   min-height: 350px;
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
@@ -142,6 +153,11 @@ textarea {
   cursor: pointer;
   background-color: #24cdd5;
 }
+.head_carts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .home_column {
   flex-direction: column;
   margin-bottom: 50px;
@@ -152,3 +168,9 @@ textarea {
   width: auto;
 }
 /*---FIN ESTILOS HOME---*/
+/*---ESTILOS PORTFOLIO---*/
+.img_portfoliio_logos {
+  height: auto;
+  width: 120px;
+}
+/*---FIN ESTILOS PORTFOLIO---*/
